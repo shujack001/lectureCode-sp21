@@ -12,4 +12,5 @@ public interface List61B<Item> {
                 System.out.print(get(i) + " ");
             }
         }
+        List61B<String> someList = new SLList<>();
 }
