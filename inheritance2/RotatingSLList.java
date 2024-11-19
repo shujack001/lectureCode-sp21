@@ -4,10 +4,14 @@ public class RotatingSLList<Item> extends SLList<Item> {
 	/** To do: Implement RotatingSLList such that code compiles and outputs correct result. */
 
 	/** Rotates list to the right. */
-	public void rotateRight() {
-	    Item x = removeLast();
-	    addFirst(x);
-    }
+//	public void rotateRight() {
+//	    Item x = removeLast();
+//	    addFirst(x);
+//    }
+	public void rotateRight(){
+		Item x = removeLast();
+		addFirst(x);
+	}
 
 	public static void main(String[] args) {
 		RotatingSLList<Integer> rsl = new RotatingSLList<>();
